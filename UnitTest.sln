@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Biatech", "Biatech", "{4907C4D3-057B-4801-8107-332CE8BB3C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-section", "4-section", "{BEAB5A91-391B-43AC-923D-9B5B509B1F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InlineDataAttribute", "InlineDataAttribute\InlineDataAttribute.csproj", "{052EA596-757D-4D75-B8CA-819443955A13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InlineDataAttribute.Tests", "InlineDataAttribute.Tests\InlineDataAttribute.Tests.csproj", "{05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BEAB5A91-391B-43AC-923D-9B5B509B1F4C} = {4907C4D3-057B-4801-8107-332CE8BB3C8E}
+		{052EA596-757D-4D75-B8CA-819443955A13} = {BEAB5A91-391B-43AC-923D-9B5B509B1F4C}
+		{05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2} = {BEAB5A91-391B-43AC-923D-9B5B509B1F4C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{052EA596-757D-4D75-B8CA-819443955A13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052EA596-757D-4D75-B8CA-819443955A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052EA596-757D-4D75-B8CA-819443955A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052EA596-757D-4D75-B8CA-819443955A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
