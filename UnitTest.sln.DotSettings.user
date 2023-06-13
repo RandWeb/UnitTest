@@ -6,5 +6,6 @@
     &lt;TestId&gt;xUnit::05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2::net7.0::InlineDataAttribute.Tests.MemberDataTest.CrateInvoice_UsingFieldMemberData_ShouldInvoiceNotNullAndInvoiceNotEqualZero&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2::net7.0::InlineDataAttribute.Tests.MemberDataTest.CreateInvoice_UsingMethodMemberData_ShouldNotNullAndInvoiceNotEqualZero&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2::net7.0::InlineDataAttribute.Tests.MemberDataTest.CreateInvoice_UsingMemberDataClass_ShouldNotNullAndInvoiceNotEqualZero&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2::net7.0::InlineDataAttribute.Tests.DataAttributeTests.CreateInvoice_usingClassData_shouldInvoiceNotNullAndInvoiceIdNotEqualZero&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
