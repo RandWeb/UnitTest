@@ -71,7 +71,7 @@ public class MemberDataTest
 
     [Theory]
     [InlineData(TypeOfService.JobLicense, 1000)]
-    [MemberData(nameof(PropertyMemberData))]
+    [MemberData(nameof(PropertyMemberData),DisableDiscoveryEnumeration = true)]
     public void CrateInvoice_UsingFieldMemberData_ShouldInvoiceNotNullAndInvoiceNotEqualZero(
         TypeOfService typeOfService, decimal amount)
     {
