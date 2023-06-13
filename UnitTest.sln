@@ -4,9 +4,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Biatech", "Biatech", "{4907
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-section", "4-section", "{BEAB5A91-391B-43AC-923D-9B5B509B1F4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InlineDataAttribute", "InlineDataAttribute\InlineDataAttribute.csproj", "{052EA596-757D-4D75-B8CA-819443955A13}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project", "Project\Project.csproj", "{052EA596-757D-4D75-B8CA-819443955A13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InlineDataAttribute.Tests", "InlineDataAttribute.Tests\InlineDataAttribute.Tests.csproj", "{05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project.Tests", "Project.Tests\Project.Tests.csproj", "{05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

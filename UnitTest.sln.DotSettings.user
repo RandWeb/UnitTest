@@ -1,0 +1,9 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=af0a49f0_002Df284_002D4f9e_002D9a26_002D7b018867152e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="create_invoice_not_return_null_and_zero" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2::net7.0::InlineDataAttribute.Tests.InvoiceServiceTest.create_invoice_not_return_null_and_zero&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2::net7.0::InlineDataAttribute.Tests.MemberDataTest.CreateInvoice_UsingFieldMemberData_ShouldInvoice_NotNullAndInvoiceNotEqualZero&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2::net7.0::InlineDataAttribute.Tests.MemberDataTest.CrateInvoice_UsingFieldMemberData_ShouldInvoiceNotNullAndInvoiceNotEqualZero&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::05FD8F91-2829-49AB-B4B2-A3C0E0D03CC2::net7.0::InlineDataAttribute.Tests.MemberDataTest.CreateInvoice_UsingMethodMemberData_ShouldNotNullAndInvoiceNotEqualZero&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
