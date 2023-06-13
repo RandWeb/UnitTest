@@ -1,3 +1,5 @@
+using System.Reflection;
+
 namespace InlineDataAttribute.Tests;
 
 using Xunit;
@@ -94,26 +96,15 @@ public class MemberDataTest
         Assert.NotNull(invoice);
         Assert.True(invoice.Id > 0);
     }
-}
-
-public class TestDataClass
-{
-    public static IEnumerable<object[]> PropertyMemberData
+    
+    [Theory]
+    [MemberData(nameof(TestDataClass.PropertyMemberData),MemberType = typeof(TestDataClass))]
+    public void CreateInvoice_UsingMemberDataClass_ShouldNotNullAndInvoiceNotEqualZero(TypeOfService typeOfService, decimal amount)
     {
-        get
-        {
-            yield return new object[]
-            {
-                TypeOfService.JobLicense,
-                1000
-            };
-            
-            yield return new object[]
-            {
-                TypeOfService.JobLicense,
-                5000
-            };
+        InvoiceService invoiceService = new();
 
-        }
+        Invoice invoice = invoiceService.CreateInvoice(typeOfService, amount);
+        Assert.NotNull(invoice);
+        Assert.True(invoice.Id > 0);
     }
 }
