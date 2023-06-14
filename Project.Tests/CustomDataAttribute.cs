@@ -14,7 +14,7 @@ public class CustomDataAttribute
     }
     [Theory]
     [CsvData(@"",',')]
-    public void CreateInvoice_UsingJsonData_ShouldNotNullAndInvoiceNotEqualZero(TypeOfService typeOfService, decimal amount)
+    public void CreateInvoice_UsingJsonDataAttribute_ShouldNotNullAndInvoiceNotEqualZero(TypeOfService typeOfService, decimal amount)
     {
         InvoiceService invoiceService = new();
 
