@@ -8,6 +8,7 @@ public class UnitTestWithMoq
 {
     private Mock<IPersonRepository> _personRepository = new();
 
+    delegate bool TryGetPersonReturn(int id,out Person p);
 
     public UnitTestWithMoq()
     {
@@ -21,6 +22,26 @@ public class UnitTestWithMoq
         _personRepository.Setup(c => c.Get(It.Is<int>(c => c % 2 == 0))).Returns((int id) => { return null; });
         _personRepository.Setup(c => c.Get(It.IsInRange(101,500,Range.Inclusive))).Returns((int id) => { return null; });
         _personRepository.Setup(c => c.Get(It.IsInRange(101,500,Range.Exclusive))).Returns((int id) => { return new Person() { Id = id }; });
+
+        _personRepository.Setup(x => x.GetAllAsync().Result).Returns(Data.Persons);
+
+
+        Person person = null;
+        _personRepository.Setup(x => x.TryGet(It.IsAny<int>(), out person))
+            .Returns(new TryGetPersonReturn((int id, out Person p) =>
+        {
+            if (id> 100)
+            {
+                p = null;
+                return false;
+            }
+
+            p = new Person()
+            {
+                Id = id,
+            };
+            return true;
+        }));
     }
 
     [Fact]
